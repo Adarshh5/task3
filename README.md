@@ -116,3 +116,8 @@ Saves and loads the vector database for reuse without regenerating embeddings.
 
 
 
+## Note on Task C
+Due to time constraints and my laptop was now working for installing big packges during the live interview, Task C was implemented using
+cloud-based embeddings (OpenAI text-embedding-3-small) with FAISS instead of
+locally loading the Hugging Face model `intfloat/e5-small-v2`. The pipeline
+demonstrates the same vectorization and similarity search workflow.
