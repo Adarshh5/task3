@@ -51,7 +51,7 @@ vectorsotre = FAISS.load_local(
 
 retriever =  vectorsotre.as_retriever(search_kwargs={'k': 1})
 
-query = "What's the difference between green materials and brown materials in composting?"
+query = "What is FastAPI"
 
 
 docs = retriever.invoke(query)
